@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Music</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-transparent">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html"><b>Home</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="music.html"><b>Favorite Music</b></a></li>
+                <li class="nav-item"><a class="nav-link" href="places.html"><b>Dream Places</b></a></li>
+                <li class="nav-item"><a class="nav-link" href="goals.html"><b>Goals & Aspirations</b></a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html"><b>Hobbies</b></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="favoritemusic">
+
+    <!-- Main Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Left Side: Carousel -->
+      <div class="col-md-6">
+        <div id="musicCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="image/guitar1.jpg" class="d-block w-100" alt="Bruno Mars">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="image/guitar2.webp" class="d-block w-100" alt="Bruno Mars Singing">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="image/guitar3.jpg" class="d-block w-100" alt="Bruno Mars Concert">
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <a class="carousel-control-prev" href="#musicCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#musicCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Side: Text -->
+      <div class="col-md-6 d-flex align-items-center">
+        <div class="favoritemusic">
+          <h2>Hobbies</h2>
+          <p>One of my favorite hobbies is playing the guitar. I started playing when I was a kid, and it quickly became a big part of my life. I used to play with my cousins and friends, and those moments remain some of my happiest memories. Music is not just a hobby for me—it’s a way to express myself, relax, and connect with others. Whenever I feel stressed, picking up the guitar helps me find peace and joy.</p>
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
