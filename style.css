@@ -34,7 +34,7 @@ body {
   }
 
   /* Mobile Optimization */
-@media (max-width: 768px) {
+@media (max-width: 608px) {
   .hero {
       flex-direction: column; /* Stack image and text */
       text-align: center;
