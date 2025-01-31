@@ -33,6 +33,36 @@ body {
     color: #ffffff;
   }
 
+  /* Mobile Optimization */
+@media (max-width: 768px) {
+  .hero {
+      flex-direction: column; /* Stack image and text */
+      text-align: center;
+      padding: 50px 20px;
+  }
+
+  .hero img {
+      max-width: 60%; /* Adjust size for mobile */
+      position: absolute; 
+      margin-bottom: 20px;
+      margin-left: -100px;
+  }
+
+  .hero h1 {
+      font-size: 50px;
+      margin: 0;
+      margin-top: 100px;
+      text-align: center;
+  }
+
+  .hero p {
+      font-size: 20px;
+      text-align: center;
+      margin-left: 150px;
+
+  }
+}
+
   /* Typewriter Effect */
   .line-1 {
     position: relative;
